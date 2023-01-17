@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+      /* 登陆窗口控制 */
+      display: flex;
+      flex-direction : column ;
+      height: 100vh;
+}
+
+.login {
+    margin :auto;
+    width: 500px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(2px); /* 使背景模糊化 */
+    box-shadow: 0 0 20px #a29bfe;  /*边框*/
+    border-radius: 50px;  /*圆角*/
+}
+
+.table {  /*请登录账户*/
+       font: 40px '';
+       text-align: center;
+       letter-spacing: 5px;
+       color: #3d3d3d;
+}
+
+.box {  
+      overflow: hidden;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+}
+
+.box input {
+            width: 350px;
+            height: 100%;
+            margin-bottom: 20px;
+            outline: none;
+            border: 0;
+            padding: 10px;
+            background-color: transparent;
+            border-bottom: 3px solid rgb(150, 150, 240);
+            font: 1000 20px '';
+}
+
+.go {
+     display: block;
+     padding: 10px;
+     font: 30px '';
+     border-radius: 50px;
+     margin-top: 15px;
+     color: #fff;
+     letter-spacing: 10px;
+     background-image: linear-gradient(to left, #fd79a8,#a29bf6);  /*渐变色*/
+}
