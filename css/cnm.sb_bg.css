@@ -21,14 +21,14 @@
   content: "";
   position: absolute;
 }
-@-webkit-keyframes flame {
+flame {
   50% {
     -webkit-transform: scale(0.8) rotate(45deg);
             transform: scale(0.8) rotate(45deg);
   }
 }
 
-@keyframes flame {
+flame {
   50% {
     -webkit-transform: scale(0.8) rotate(45deg);
             transform: scale(0.8) rotate(45deg);
